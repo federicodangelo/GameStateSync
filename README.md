@@ -15,3 +15,5 @@ To merge logic used can be defined on a field level, for example:
 - if you have an "items unlocked" field, which contains IDs of unlocked items, you can choose to always merge the values, so no item is ever lost.
 
 The server only needs to implement some very basic functions to retrieve / store the last server state, and some helper functions used to optimize data transfer.
+
+The project is currently in design phase, the design is being made using the ArgoUML tool, available at http://argouml.tigris.org/
