@@ -14,3 +14,4 @@ To merge logic used can be defined on a field level, for example:
 - if you have an "money" field, you can choose to keep the delta value since the last syncrhonization, so if the player spent 2 dolars since the last syncrhonization, then the new value will be the "new server money value" minus 2 dolars.
 - if you have an "items unlocked" field, which contains IDs of unlocked items, you can choose to always merge the values, so no item is ever lost.
 
+The server only needs to implement some very basic functions to retrieve / store the last server state, and some helper functions used to optimize data transfer.
