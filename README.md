@@ -5,7 +5,7 @@ Simple game state synchronization across multiple devices
 
 The main purprose of this library if to help keep game state synchronized across multiple devices, without the need to have a persistent game server connection.
 
-To do this, the game stores the last known server state and the current game state, and when the server can be reached it synchronized the changes.
+To do this, the game stores the last known server state and the current game state, and when the server can be reached it synchronizes the changes.
 
 If another devices made changes to the game state, the library downloads the new server state from the server, merges it with the changes mades since the last syncrhonization, and uploads the new game state to the server.
 
